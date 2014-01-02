@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="MenuList"
+                OnQuickLaunch="TRUE"
+                TemplateType="170"
+                FeatureId="192efa95-e50c-475e-87ab-361cede5dd7f"
+                Url="Lists/MenuList"
+                Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Links</Field>
+          <Field Name="Description">Manage your encrypted links</Field>
+          <Field Name="LinkLocation">~site/Lists/Links</Field>
+          <Field Name="BackgroundImageLocation">~site/Images/link.svg</Field>
+          <Field Name="LaunchBehavior">IN PAGE NAVIGATION</Field>
+          <Field Name="Order">1</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Keys</Field>
+          <Field Name="Description">Manage your RSA keys</Field>
+          <Field Name="LinkLocation">~site/Lists/Keys/AllItems.aspx?IsDlg=1</Field>
+          <Field Name="BackgroundImageLocation">~site/Images/gear.svg</Field>
+          <Field Name="LaunchBehavior">Dialog</Field>
+          <Field Name="Order">2</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">New RSA key</Field>
+          <Field Name="Description">Use the wizard to create RSA encryption keys</Field>
+          <Field Name="LinkLocation">~site/Pages/SetupRSA.aspx</Field>
+          <Field Name="BackgroundImageLocation">~site/Images/key.svg</Field>
+          <Field Name="LaunchBehavior">IN PAGE NAVIGATION</Field>
+          <Field Name="Order">3</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Help</Field>
+          <Field Name="Description">More info about this app</Field>
+          <Field Name="LinkLocation">~site/Pages/About.aspx</Field>
+          <Field Name="BackgroundImageLocation">~site/Images/question.svg</Field>
+          <Field Name="LaunchBehavior">Dialog</Field>
+          <Field Name="Order">4</Field>
+        </Row>        
+      </Rows>
+    </Data>
+
+  </ListInstance>
+</Elements>

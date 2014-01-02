@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="f929a14c-a8cd-4a6f-ad74-0a98415c7b08" 
+        solutionId="f929a14c-a8cd-4a6f-ad74-0a98415c7b08" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="EncryptedLinks"
+        sharePointProductVersion="15.0">
+  <features>
+        <featureReference itemId="840ba700-18e9-4b8e-958d-42fe67f452e3" />
+  </features>
+</package>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Pages">
+    <File Path="Pages\Default.aspx" Url="Pages/Default.aspx" ReplaceContent="TRUE">
+      <View WebPartZoneID="Main" WebPartOrder="2"  Type="HTML" OrderedView="TRUE" DisplayName="Latest Links" List="Lists/Links" BaseViewID="7" >
+
+      </View>
+    </File>
+    <File Path="Pages\SetupRSA.aspx" Url="Pages/SetupRSA.aspx" ReplaceContent="TRUE">
+      <Property Name="Title" Type="string" Value="RSA Set Up"></Property>
+    </File>
+  </Module>
+</Elements>

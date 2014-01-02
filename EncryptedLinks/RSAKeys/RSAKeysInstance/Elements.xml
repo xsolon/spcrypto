@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Keys" OnQuickLaunch="TRUE" TemplateType="10000" Url="Lists/Keys" Description="Store encryption keys">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="ContentTypeId">0x0100965d215a8aa7444f829dcab273da5751</Field>
+          <Field Name="Title">Sample 1024 bit Key</Field>
+          <Field Name="ID">1</Field>
+          <Field Name="_ModerationStatus">0</Field>
+          <Field Name="Order">100.000000000000</Field>
+          <Field Name="FSObjType">0</Field>
+          <Field Name="FileLeafRef">1_.000</Field>
+          <Field Name="MetaInfo">1;#</Field>
+          <Field Name="PrivateKey">
+            -----BEGIN RSA PRIVATE KEY-----
+            MIICXQIBAAKBgQC72ePxx8YS10D6BLliqXJR65NwlHglUgyAcnm4nc8aRr0zcbim
+            g0fEFeku5j0W0NbVQb6vVSklZ4oiN3m8FFukqb9tzsXvDs/J5qqDzG1msMpgu6A1
+            fvaOi8GrmuqZk67OIR+k8pCGJWnqIOw8/LF3Nq4gwmMieZu0eo3jB8BzWQIDAQAB
+            AoGBALgLbXHICb8R2B5cnIkWfOPYC3dEb0YZUhhSkAEZ0/vpjJsncwLpIlnyIakK
+            eJWu/Jypsjo0FIEKJWMKuSFVTMajcgpde6XGkprRjeyjDVcbRaaiXbRWHyGpZAak
+            QxBDz2esUqVjuh3EZfdQYc0/wfqwzXwtUWt62SgTYl0k7xMBAkEA7NUD2c83HeTZ
+            FRluKqeVyHO4yXp2wbc7P/MP0I7IlHV7vycG3PPPrvKs7qawK9MGE7R24Sh6y2uT
+            Yw+I6n+RuQJBAMsOBr8s43pgFadYfAywCuJAWGO+PYKMlwVXqS58H/GT6oDF9s4h
+            rjg43CLNPpG10yU7LoT52vzgYcpS5VOTPqECQQDhapaxt6M0Vt+wT3YmL0BHfK3D
+            R0bFdst0QLsqvNx5QaE4/cJwh7eDQwQKWqmP7Nj55GjKQicuewPb46tj12wxAkAF
+            dlwiGnAII7uRY+T6ZmX0jiySilSXRXbuktwfPwGQ+xys2CZ6hxdrtcPeP802GEEU
+            2FG5DAujD9oxmidHJ0fhAkArAjBKCP5c+NrN+aGWc69eeO5qTyYZjltSsY3Amzr7
+            TaudthcxTQjdfwPSm9tWmuflcKLIjzqXDgQFwZyp5crD
+            -----END RSA PRIVATE KEY-----
+          </Field>
+          <Field Name="PublicKey">
+            -----BEGIN PUBLIC KEY-----
+            MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC72ePxx8YS10D6BLliqXJR65Nw
+            lHglUgyAcnm4nc8aRr0zcbimg0fEFeku5j0W0NbVQb6vVSklZ4oiN3m8FFukqb9t
+            zsXvDs/J5qqDzG1msMpgu6A1fvaOi8GrmuqZk67OIR+k8pCGJWnqIOw8/LF3Nq4g
+            wmMieZu0eo3jB8BzWQIDAQAB
+            -----END PUBLIC KEY-----
+          </Field>
+          <Field Name="_Comments">This is a sample key created automatically. Use to test; to encrypt sensitive data create your own.</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Images">
+    <File Path="Images\AppIcon.png" Url="Images/AppIcon.png" ReplaceContent="TRUE" />
+    <File Path="Images\key-icon1.png" Url="Images/key-icon1.png" ReplaceContent="TRUE" />
+    <File Path="Images\Security-Key-icon.png" Url="Images/Security-Key-icon.png" ReplaceContent="TRUE" />
+    <File Path="Images\icon1.png" Url="Images/icon1.png" ReplaceContent="TRUE" />
+    <File Path="Images\icon2.png" Url="Images/icon2.png" ReplaceContent="TRUE" />
+    <File Path="Images\icon3.png" Url="Images/icon3.png" ReplaceContent="TRUE" />
+    <File Path="Images\icon4.png" Url="Images/icon4.png" ReplaceContent="TRUE" />
+    <File Path="Images\postIcon.png" Url="Images/postIcon.png" ReplaceContent="TRUE" />
+    <File Path="Images\siteIcon.png" Url="Images/siteIcon.png" ReplaceContent="TRUE" />
+    <File Path="Images\key-64.png" Url="Images/key-64.png" ReplaceContent="TRUE" />
+    <File Path="Images\question.svg" Url="Images/question.svg" ReplaceContent="TRUE" />
+    <File Path="Images\key.svg" Url="Images/key.svg" ReplaceContent="TRUE" />
+    <File Path="Images\link.svg" Url="Images/link.svg" ReplaceContent="TRUE" />
+    <File Path="Images\gear.svg" Url="Images/gear.svg" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

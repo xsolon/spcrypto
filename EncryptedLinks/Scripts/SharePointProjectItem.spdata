@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Scripts\" Type="ElementManifest" />
+    <ProjectItemFile Source="App.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.9.1.min.map" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.9.1.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.9.1.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jquery-1.9.1.intellisense.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="encryptedField.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="jsencrypt.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="loader.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="loader.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="loader.min.js.map" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="sjcl.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="bootstrap.js" Target="Scripts\" Type="ElementFile" />
+  </Files>
+</ProjectItem>
