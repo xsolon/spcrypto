@@ -375,8 +375,8 @@
 
                 if (undefined === window.xSolon) window.xSolon = { RSA: {} };
 
-                var privKey = $('#privkey').text().replace(/\n/g, '');
-                var pubKey = $('#pubkey').text().replace(/\n/g, '');
+                var privKey = $('#privkey').val().replace(/\n/g, '');
+                var pubKey = $('#pubkey').val().replace(/\n/g, '');
 
                 var sec = $('#linkSection');
 
