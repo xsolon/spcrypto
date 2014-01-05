@@ -35,9 +35,9 @@
         <Row>
           <Field Name="Title">Help</Field>
           <Field Name="Description">More info about this app</Field>
-          <Field Name="LinkLocation">~site/Pages/About.aspx</Field>
+          <Field Name="LinkLocation">http://www.xsolon.net/products/spcrypto/index.html</Field>
           <Field Name="BackgroundImageLocation">~site/Images/question.png</Field>
-          <Field Name="LaunchBehavior">Dialog</Field>
+          <Field Name="LaunchBehavior">IN PAGE NAVIGATION</Field>
           <Field Name="Order">4</Field>
         </Row>        
       </Rows>

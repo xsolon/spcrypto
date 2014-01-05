@@ -35,6 +35,7 @@
                     <li><a href="../Lists/Links">Links</a></li>
                     <li><a href="SetupRSA.aspx">Key Setup</a></li>
                     <li><a href="../Lists/Keys">Manage Keys</a></li>
+                    <li><a href="http://www.xsolon.net/products/spcrypto/privacy.html">Privacy</a></li>
                 </ul>
             </td>
             <td>

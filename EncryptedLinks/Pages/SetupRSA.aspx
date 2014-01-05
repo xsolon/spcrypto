@@ -87,6 +87,7 @@
                     <li><a href="../Lists/Links">Links</a></li>
                     <li class="active"><a href="SetupRSA.aspx">Key Setup</a></li>
                     <li><a href="../Lists/Keys">Manage Keys</a></li>
+                    <li><a href="http://www.xsolon.net/products/spcrypto/privacy.html">Privacy</a></li>
                 </ul>
             </td>
             <td>
@@ -208,7 +209,7 @@
                                 <span class="xHelp">&nbsp;</span>
                             </a></legend>
                             <div class="row">
-                                <div class="panel panel-default">
+                                <div class="panel panel-default hidden">
                                     <div class="panel-heading">
                                         <h3 class="panel-title">Save in Azure Cloud</h3>
                                         <button type="button" class="close"><span class="glyphicon glyphicon-chevron-down"></span></button>

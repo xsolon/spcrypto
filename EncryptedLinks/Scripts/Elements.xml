@@ -1,17 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <Module Name="Scripts">
-    <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
-    <File Path="Scripts\jquery-1.9.1.min.map" Url="Scripts/jquery-1.9.1.min.map" ReplaceContent="TRUE" />
     <File Path="Scripts\jquery-1.9.1.min.js" Url="Scripts/jquery-1.9.1.min.js" ReplaceContent="TRUE" />
     <File Path="Scripts\jquery-1.9.1.js" Url="Scripts/jquery-1.9.1.js" ReplaceContent="TRUE" />
     <File Path="Scripts\jquery-1.9.1.intellisense.js" Url="Scripts/jquery-1.9.1.intellisense.js" ReplaceContent="TRUE" />
     <File Path="Scripts\encryptedField.js" Url="Scripts/encryptedField.js" ReplaceContent="TRUE" />
     <File Path="Scripts\jsencrypt.min.js" Url="Scripts/jsencrypt.min.js" ReplaceContent="TRUE" />
-    <File Path="Scripts\loader.js" Url="Scripts/loader.js" ReplaceContent="TRUE" />
-    <File Path="Scripts\loader.min.js" Url="Scripts/loader.min.js" ReplaceContent="TRUE" />
-    <File Path="Scripts\loader.min.js.map" Url="Scripts/loader.min.js.map" ReplaceContent="TRUE" />
     <File Path="Scripts\sjcl.js" Url="Scripts/sjcl.js" ReplaceContent="TRUE" />
     <File Path="Scripts\bootstrap.js" Url="Scripts/bootstrap.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\encryptedField.min.js" Url="Scripts/encryptedField.min.js" ReplaceContent="TRUE" />
   </Module>
 </Elements>

@@ -96,10 +96,10 @@
     <None Include="RSAKeys\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{f5ec9c86-a5dc-4611-91d5-408e8977a52e}</SharePointProjectItemId>
     </None>
-    <None Include="Scripts\jquery-1.9.1.min.map" />
-    <None Include="Scripts\loader.min.js.map">
-      <DependentUpon>loader.js</DependentUpon>
+    <None Include="Scripts\encryptedField.min.js.map">
+      <DependentUpon>encryptedField.js</DependentUpon>
     </None>
+    <None Include="Scripts\jquery-1.9.1.min.map" />
     <None Include="Scripts\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{6790b809-3392-48b6-ad72-be293e91649d}</SharePointProjectItemId>
     </None>
@@ -110,16 +110,14 @@
     <Content Include="RSAKeys\Schema.xml" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\Elements.xml" />
-    <Content Include="Scripts\App.js" />
     <Content Include="Scripts\encryptedField.js" />
+    <Content Include="Scripts\encryptedField.min.js">
+      <DependentUpon>encryptedField.js</DependentUpon>
+    </Content>
     <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Scripts\jsencrypt.min.js" />
-    <Content Include="Scripts\loader.js" />
-    <Content Include="Scripts\loader.min.js">
-      <DependentUpon>loader.js</DependentUpon>
-    </Content>
     <Content Include="Scripts\sjcl.js" />
     <Content Include="Scripts\_references.js" />
   </ItemGroup>
@@ -142,6 +140,7 @@
     </None>
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
+      <SubType>Designer</SubType>
     </None>
     <None Include="Features\Feature1\Feature1.feature">
       <FeatureId>{840ba700-18e9-4b8e-958d-42fe67f452e3}</FeatureId>
@@ -154,6 +153,21 @@
     <AppManifestFile Include="AppManifest.xml">
       <SubType>Designer</SubType>
     </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources %28Host Web%29\Resources.resx">
+      <OpcRelationship>content-defaultresource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources %28Host Web%29\Resources.en-US.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources %28Host Web%29\Resources.en.resx">
+      <OpcRelationship>content-resource</OpcRelationship>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
