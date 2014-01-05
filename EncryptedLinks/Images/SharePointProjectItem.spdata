@@ -2,19 +2,10 @@
 <ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
   <Files>
     <ProjectItemFile Source="Elements.xml" Target="Images\" Type="ElementManifest" />
-    <ProjectItemFile Source="AppIcon.png" Target="Images\" Type="ElementFile" />
     <ProjectItemFile Source="key-icon1.png" Target="Images\" Type="ElementFile" />
-    <ProjectItemFile Source="Security-Key-icon.png" Target="Images\" Type="ElementFile" />
-    <ProjectItemFile Source="icon1.png" Target="Images\" Type="ElementFile" />
-    <ProjectItemFile Source="icon2.png" Target="Images\" Type="ElementFile" />
-    <ProjectItemFile Source="icon3.png" Target="Images\" Type="ElementFile" />
-    <ProjectItemFile Source="icon4.png" Target="Images\" Type="ElementFile" />
-    <ProjectItemFile Source="postIcon.png" Target="Images\" Type="ElementFile" />
-    <ProjectItemFile Source="siteIcon.png" Target="Images\" Type="ElementFile" />
-    <ProjectItemFile Source="key-64.png" Target="Images\" Type="ElementFile" />
-    <ProjectItemFile Source="question.svg" Target="Images\" Type="ElementFile" />
-    <ProjectItemFile Source="key.svg" Target="Images\" Type="ElementFile" />
-    <ProjectItemFile Source="link.svg" Target="Images\" Type="ElementFile" />
-    <ProjectItemFile Source="gear.svg" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="gear.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="key.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="link.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="question.png" Target="Images\" Type="ElementFile" />
   </Files>
 </ProjectItem>

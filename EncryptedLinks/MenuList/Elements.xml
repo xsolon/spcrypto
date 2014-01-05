@@ -12,7 +12,7 @@
           <Field Name="Title">Links</Field>
           <Field Name="Description">Manage your encrypted links</Field>
           <Field Name="LinkLocation">~site/Lists/Links</Field>
-          <Field Name="BackgroundImageLocation">~site/Images/link.svg</Field>
+          <Field Name="BackgroundImageLocation">~site/Images/link.png</Field>
           <Field Name="LaunchBehavior">IN PAGE NAVIGATION</Field>
           <Field Name="Order">1</Field>
         </Row>
@@ -20,7 +20,7 @@
           <Field Name="Title">Keys</Field>
           <Field Name="Description">Manage your RSA keys</Field>
           <Field Name="LinkLocation">~site/Lists/Keys/AllItems.aspx?IsDlg=1</Field>
-          <Field Name="BackgroundImageLocation">~site/Images/gear.svg</Field>
+          <Field Name="BackgroundImageLocation">~site/Images/gear.png</Field>
           <Field Name="LaunchBehavior">Dialog</Field>
           <Field Name="Order">2</Field>
         </Row>
@@ -28,7 +28,7 @@
           <Field Name="Title">New RSA key</Field>
           <Field Name="Description">Use the wizard to create RSA encryption keys</Field>
           <Field Name="LinkLocation">~site/Pages/SetupRSA.aspx</Field>
-          <Field Name="BackgroundImageLocation">~site/Images/key.svg</Field>
+          <Field Name="BackgroundImageLocation">~site/Images/key.png</Field>
           <Field Name="LaunchBehavior">IN PAGE NAVIGATION</Field>
           <Field Name="Order">3</Field>
         </Row>
@@ -36,7 +36,7 @@
           <Field Name="Title">Help</Field>
           <Field Name="Description">More info about this app</Field>
           <Field Name="LinkLocation">~site/Pages/About.aspx</Field>
-          <Field Name="BackgroundImageLocation">~site/Images/question.svg</Field>
+          <Field Name="BackgroundImageLocation">~site/Images/question.png</Field>
           <Field Name="LaunchBehavior">Dialog</Field>
           <Field Name="Order">4</Field>
         </Row>        
