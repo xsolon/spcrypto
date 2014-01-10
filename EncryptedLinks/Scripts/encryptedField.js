@@ -58,7 +58,7 @@
         var ui = {
             tmpLocalKeyMenu: '<ie:menuitem type="option" IconSrc="/_layouts/images/{0}" onMenuClick="xSolon.RSA.registerLocalKey({1},{2})" text="{3}" description="{4}"></ie:menuitem>',
             tmpMenu: '<ie:menuitem type="option" IconSrc="{0}" onMenuClick="{1}" text="{2}" description="{3}"></ie:menuitem>',
-            tmpMainMenu: '<span style="display: none;">\
+            tmpMainMenu: '<span style="display: none;min-height:100px;">\
 <menu id="{0}" largeiconmode="true">{1}</menu></span>\
 <div  style="display:inline;float:right">\
     <span>\
