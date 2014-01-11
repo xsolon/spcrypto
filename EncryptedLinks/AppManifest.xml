@@ -3,7 +3,7 @@
 <App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
      Name="EncryptedList"
      ProductID="{730ef4d5-0e8e-4f06-8584-0b79ba8f5443}"
-     Version="1.0.0.3"
+     Version="1.0.0.4"
      SharePointMinVersion="15.0.0.0"
 >
   <Properties>

@@ -9,5 +9,6 @@
     <File Path="Scripts\sjcl.js" Url="Scripts/sjcl.js" ReplaceContent="TRUE" />
     <File Path="Scripts\bootstrap.js" Url="Scripts/bootstrap.js" ReplaceContent="TRUE" />
     <File Path="Scripts\encryptedField.min.js" Url="Scripts/encryptedField.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\typedarray.js" Url="Scripts/typedarray.js" ReplaceContent="TRUE" />
   </Module>
 </Elements>

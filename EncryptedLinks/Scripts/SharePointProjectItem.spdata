@@ -10,5 +10,6 @@
     <ProjectItemFile Source="sjcl.js" Target="Scripts\" Type="ElementFile" />
     <ProjectItemFile Source="bootstrap.js" Target="Scripts\" Type="ElementFile" />
     <ProjectItemFile Source="encryptedField.min.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="typedarray.js" Target="Scripts\" Type="ElementFile" />
   </Files>
 </ProjectItem>

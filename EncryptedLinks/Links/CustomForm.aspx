@@ -45,6 +45,7 @@
     <script type="text/javascript" src="../../_layouts/15/SP.UI.Dialog.js"></script>    
     <script type="text/javascript" src="../../scripts/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="../../scripts/jsencrypt.min.js"></script>
+    <script type="text/javascript" src="../../scripts/typedarray.js"></script>
     <script type="text/javascript" src="../../scripts/sjcl.js"></script>
     <SharePoint:DelegateControl runat="server" ControlId="FormCustomRedirectControl" AllowMultipleControls="true" />
     <SharePoint:UIVersionedContent UIVersion="4" runat="server">

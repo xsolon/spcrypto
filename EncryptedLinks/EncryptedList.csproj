@@ -119,6 +119,7 @@
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Scripts\jsencrypt.min.js" />
     <Content Include="Scripts\sjcl.js" />
+    <Content Include="Scripts\typedarray.js" />
     <Content Include="Scripts\_references.js" />
   </ItemGroup>
   <ItemGroup>

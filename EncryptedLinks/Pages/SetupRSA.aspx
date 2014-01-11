@@ -13,6 +13,7 @@
     <script type="text/javascript" src="../scripts/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="../Scripts/bootstrap.js"></script>
     <script type="text/javascript" src="../scripts/jsencrypt.min.js"></script>
+    <script type="text/javascript" src="../scripts/typedarray.js"></script>
     <script type="text/javascript" src="../scripts/sjcl.js"></script>
     <link rel="Stylesheet" type="text/css" href="../Content/css/bootstrap.min.css" />
     <style type="text/css">
