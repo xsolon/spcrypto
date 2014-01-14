@@ -136,7 +136,8 @@
             //when the form is initialized, call our anonymous function. 
             formCtx.registerInitCallback(formCtx.fieldName, function () {
 
-                console.log('registerInitCallback' + formCtx.fieldName);
+                if (window.console && window.console.log)
+                    console.log('registerInitCallback' + formCtx.fieldName);
 
                 var context = SP.ClientContext.get_current();
                 var web = context.get_web();
@@ -178,15 +179,16 @@
                     $('.xSolkeyMenu').html(keyMenus);
 
                 }, function (sender, args) {
-                    console.log(ns.string.format("{0} {1}", args.get_message(), args.get_stackTrace()));
+                    if (window.console && window.console.log)
+                        console.log(ns.string.format("{0} {1}", args.get_message(), args.get_stackTrace()));
                 });
 
             });
 
             //This is where the magic happens! After the user clicks save, call this function. In this function, set the item field value.
             formCtx.registerGetValueCallback(formCtx.fieldName, function () {
-
-                console.log('GetValueCallback' + formCtx.fieldName);
+                if (window.console && window.console.log)
+                    console.log('GetValueCallback' + formCtx.fieldName);
 
                 var val = $('#txt' + formCtx.fieldName).val();
 
@@ -346,10 +348,12 @@
                         if (raw !== false)
                             setCtrlVal(ctrl, raw);
                         else { SP.UI.Notify.addNotification("Encryption failed", false); }
-                        console.log(raw);
+                        if (window.console && window.console.log)
+                            console.log(raw);
 
                     } catch (e) {
-                        console.log(e);
+                        if (window.console && window.console.log)
+                            console.log(e);
                     }
                 }
             }).fail(function () {
@@ -370,10 +374,12 @@
                         if (raw !== false)
                             setCtrlVal(ctrl, raw);
                         else { SP.UI.Notify.addNotification("Decryption failed", false); }
-                        console.log(raw);
+                        if (window.console && window.console.log)
+                            console.log(raw);
 
                     } catch (e) {
-                        console.log(e);
+                        if (window.console && window.console.log)
+                            console.log(e);
                     }
                 }
             }).fail(function () {
