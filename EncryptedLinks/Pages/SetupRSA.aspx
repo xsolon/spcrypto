@@ -367,7 +367,8 @@
                 glyp.toggleClass('glyphicon-chevron-down');
                 glyp.toggleClass('glyphicon-chevron-up');
                 var elem = $('.panel-body', $(this).parents('.panel'));
-                console.log(elem.length);
+                if (window.console)
+                    console.log(elem.length);
                 elem.toggle();
                 event.preventDefault();
             });
