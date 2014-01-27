@@ -57,5 +57,7 @@
             </td>
         </tr>
     </table>
-
+    <div>
+        Developed by <a href='http://www.xsolon.net'>xSolon</a> | Some icons by <a href="http://modernuiicons.com/">ModernUI Icons</a>
+    </div>
 </asp:Content>

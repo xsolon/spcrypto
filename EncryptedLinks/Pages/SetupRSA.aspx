@@ -31,7 +31,7 @@
         }
 
         .panel-body {
-            display: none;
+            display: block;
         }
 
         .xHelp {
@@ -184,7 +184,7 @@
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h3 class="panel-title">Test Encryption/Decryption</h3>
-                                    <button type="button" class="close"><span class="glyphicon glyphicon-chevron-down"></span></button>
+                                    <button type="button" class="close"><span class="glyphicon glyphicon-chevron-up"></span></button>
                                 </div>
                                 <div class="panel-body">
                                     <div class="col-lg-4">
@@ -213,7 +213,7 @@
                                 <div class="panel panel-default hidden">
                                     <div class="panel-heading">
                                         <h3 class="panel-title">Save in Azure Cloud</h3>
-                                        <button type="button" class="close"><span class="glyphicon glyphicon-chevron-down"></span></button>
+                                        <button type="button" class="close"><span class="glyphicon glyphicon-chevron-up"></span></button>
                                     </div>
                                     <div class="panel-body">
                                         <ul>
@@ -226,52 +226,58 @@
                                     </div>
                                 </div>
 
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h3 class="panel-title">Save as Shortcuts</h3>
-                                        <button type="button" class="close"><span class="glyphicon glyphicon-chevron-down"></span></button>
-                                    </div>
-                                    <div class="panel-body">
-                                        <ul>
-                                            <li>The keys are stored as shortcuts in your browser.</li>
-                                            <li>Shortcuts can be shared with others as files.</li>
-                                        </ul>
-                                        <div class="col-lg-4">
-                                            <button id="btnGenLinks" class="btn btn-primary">Create Shortcuts</button>
-                                            <div id="linkSection"></div>
-                                            <div id="info4" style="display: none" class="alert alert-info alert-dismissable">
-                                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                                                <strong>Info: </strong>Drag the links to your browser's favorites or select 'Add to favorites' from their context menu (right click).
-                                            </div>
+                                <div class="col-md-6">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h3 class="panel-title">Save as Shortcuts</h3>
+                                            <button type="button" class="close"><span class="glyphicon glyphicon-chevron-up"></span></button>
                                         </div>
-                                    </div>
-                                </div>
-
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h3 class="panel-title">Save in SharePoint</h3>
-                                        <button type="button" class="close"><span class="glyphicon glyphicon-chevron-down"></span></button>
-                                    </div>
-                                    <div class="panel-body">
-                                        <div class="col-lg-4">
-
+                                        <div class="panel-body">
                                             <ul>
-                                                <li>The keys are stored in SharePoint list.</li>
-                                                <li>Multiple keys can be managed.</li>
-                                                <li>You can configure security to allow others to use your keys.</li>
+                                                <li>The keys are stored as shortcuts in your browser.</li>
+                                                <li>Shortcuts can be shared with others as files.</li>
                                             </ul>
-
-                                            <!-- Button -->
-                                            <div class="control-group">
-                                                <label class="control-label" for="btnSaveSP"></label>
-                                                <div class="controls">
-                                                    <button id="btnSaveSP" name="btnSaveSP" class="btn btn-primary">Save in SharePoint</button>
+                                            <div class="col-lg-12">
+                                                <button id="btnGenLinks" class="btn btn-primary">Create Shortcuts</button>
+                                                <div id="linkSection"></div>
+                                                <div id="info4" style="display: none" class="alert alert-info alert-dismissable">
+                                                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                                    <strong>Info: </strong>Drag the links to your browser's favorites or select 'Add to favorites' from their context menu (right click).
                                                 </div>
                                             </div>
-
                                         </div>
                                     </div>
+
                                 </div>
+                                <div class="col-md-6">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h3 class="panel-title">Save in SharePoint</h3>
+                                            <button type="button" class="close"><span class="glyphicon glyphicon-chevron-up"></span></button>
+                                        </div>
+                                        <div class="panel-body">
+                                            <div class="col-lg-12">
+
+                                                <ul>
+                                                    <li>The keys are stored in SharePoint list.</li>
+                                                    <li>Multiple keys can be managed.</li>
+                                                    <li>You can configure security to allow others to use your keys.</li>
+                                                </ul>
+
+                                                <!-- Button -->
+                                                <div class="control-group">
+                                                    <label class="control-label" for="btnSaveSP"></label>
+                                                    <div class="controls">
+                                                        <button id="btnSaveSP" name="btnSaveSP" class="btn btn-primary">Save in SharePoint</button>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
 
                             </div>
                         </fieldset>
@@ -371,7 +377,7 @@
                     console.log(elem.length);
                 elem.toggle();
                 event.preventDefault();
-            });
+            }).hide();
 
             $('#btnGenLinks').click(function (event) {
 
