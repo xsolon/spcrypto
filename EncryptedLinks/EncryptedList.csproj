@@ -46,6 +46,7 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="Content\app.master" />
+    <None Include="Content\css\spbootstrap.less" />
     <None Include="Content\fonts\glyphicons-halflings-regular.eot" />
     <None Include="Content\fonts\glyphicons-halflings-regular.ttf" />
     <None Include="Content\fonts\glyphicons-halflings-regular.woff" />
@@ -69,6 +70,12 @@
     <Content Include="Content\css\bootstrap-theme.min.css" />
     <Content Include="Content\css\bootstrap.css" />
     <Content Include="Content\css\bootstrap.min.css" />
+    <Content Include="Content\css\spbootstrap.css">
+      <DependentUpon>spbootstrap.less</DependentUpon>
+    </Content>
+    <Content Include="Content\css\spbootstrap.min.css">
+      <DependentUpon>spbootstrap.less</DependentUpon>
+    </Content>
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Images\gear.png" />
     <Content Include="Images\key-icon1.png">
@@ -127,7 +134,9 @@
     <None Include="Content\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{6609bb7d-6ebb-4cee-ad64-89f287755221}</SharePointProjectItemId>
     </None>
-    <Content Include="Content\Elements.xml" />
+    <Content Include="Content\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Content\App.css" />
   </ItemGroup>
   <ItemGroup>

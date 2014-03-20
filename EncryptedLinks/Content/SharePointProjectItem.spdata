@@ -11,5 +11,8 @@
     <ProjectItemFile Source="fonts\glyphicons-halflings-regular.svg" Target="Content\fonts\" Type="ElementFile" />
     <ProjectItemFile Source="fonts\glyphicons-halflings-regular.ttf" Target="Content\fonts\" Type="ElementFile" />
     <ProjectItemFile Source="fonts\glyphicons-halflings-regular.woff" Target="Content\fonts\" Type="ElementFile" />
+    <ProjectItemFile Source="css\spbootstrap.less" Target="Content\css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\spbootstrap.css" Target="Content\css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\spbootstrap.min.css" Target="Content\css\" Type="ElementFile" />
   </Files>
 </ProjectItem>

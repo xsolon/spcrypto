@@ -14,8 +14,7 @@
     <script type="text/javascript" src="/_layouts/15/sp.runtime.js"></script>
     <script type="text/javascript" src="/_layouts/15/sp.js"></script>
     <meta name="WebPartPageExpansion" content="full" />
-    <!-- Add your CSS styles to the following file -->
-    <link rel="Stylesheet" type="text/css" href="../Content/css/bootstrap.min.css" />
+    <link rel="Stylesheet" type="text/css" href="../Content/css/spbootstrap.min.css" />
 
 </asp:Content>
 
@@ -27,7 +26,7 @@
 <%-- The markup and script in the following Content element will be placed in the <body> of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
     <br />
-    <table>
+    <table class="xbootSection">
         <tr>
             <td valign="top" style="padding:10px;width:150px;">
                 <ul class="nav nav-pills nav-stacked">

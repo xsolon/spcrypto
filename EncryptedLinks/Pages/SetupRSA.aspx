@@ -15,7 +15,7 @@
     <script type="text/javascript" src="../scripts/jsencrypt.min.js"></script>
     <script type="text/javascript" src="../scripts/typedarray.js"></script>
     <script type="text/javascript" src="../scripts/sjcl.js"></script>
-    <link rel="Stylesheet" type="text/css" href="../Content/css/bootstrap.min.css" />
+    <link rel="Stylesheet" type="text/css" href="../Content/css/spbootstrap.min.css" />
     <style type="text/css">
         .row {
             padding-bottom: 15px;
@@ -80,7 +80,7 @@
             <p>This method stored the keys as shortcuts, the shortcuts are files that can be added to your browser. The advantage here is that the keys never leave your pc and can be shared/copied as files. Relying on your hardware for storage might be a disavantage in the event of hardware failure. Please make sure you backup your keys.</p>
         </div>
     </div>
-    <table>
+    <table class="xbootSection">
         <tr>
             <td valign="top" style="padding: 10px; width: 150px;">
                 <ul class="nav nav-pills nav-stacked">

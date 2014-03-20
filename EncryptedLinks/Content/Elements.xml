@@ -10,5 +10,8 @@
     <File Path="Content\fonts\glyphicons-halflings-regular.svg" Url="Content/fonts/glyphicons-halflings-regular.svg" ReplaceContent="TRUE" />
     <File Path="Content\fonts\glyphicons-halflings-regular.ttf" Url="Content/fonts/glyphicons-halflings-regular.ttf" ReplaceContent="TRUE" />
     <File Path="Content\fonts\glyphicons-halflings-regular.woff" Url="Content/fonts/glyphicons-halflings-regular.woff" ReplaceContent="TRUE" />
+    <File Path="Content\css\spbootstrap.less" Url="Content/css/spbootstrap.less" ReplaceContent="TRUE" />
+    <File Path="Content\css\spbootstrap.css" Url="Content/css/spbootstrap.css" ReplaceContent="TRUE" />
+    <File Path="Content\css\spbootstrap.min.css" Url="Content/css/spbootstrap.min.css" ReplaceContent="TRUE" />
   </Module>
 </Elements>
