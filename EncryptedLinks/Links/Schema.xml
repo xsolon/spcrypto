@@ -13,7 +13,7 @@
           <FieldRef ID="{9da97a8a-1da5-4a77-98d3-4bc10456e700}" Name="Comments" DisplayName="Notes" Required="FALSE" />
           <FieldRef ID="{2a9ab6d3-268a-4c1c-9897-e5f018f87e64}" Name="URLwMenu" />
           <FieldRef ID="{aeaf07ee-d2fb-448b-a7a3-cf7e062d6c2a}" Name="URLNoMenu" />
-          <FieldRef ID="{ec777c33-829c-4cf6-a1e4-5fbdeba4f7a5}" Name="Description" Required="FALSE" />
+          <FieldRef ID="{8e7906b1-5d29-41e0-871b-611f20844bd4}" Name="XsDescription" Required="FALSE" />
           <FieldRef ID="{9da97a8a-1da5-4a77-98d3-4bc10456e709}" Name="RSA_Field1" />
           <FieldRef ID="{a0f0172f-021e-4c4d-bf13-a92da0d58175}" Name="RSA_Field2" />
         </FieldRefs>
@@ -37,9 +37,10 @@
       <Field ID="{503f1caa-358e-4918-9094-4a2cdc4bc034}" Name="Edit" DisplayName="$Resources:core,Edit;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Edit" Type="Computed"></Field>
       <Field ID="{c29e077d-f466-4d8e-8bbe-72b66c5f205c}" Type="URL" Name="URL" DisplayName="$Resources:core,URL;" Required="TRUE" FromBaseType="TRUE" ShowInViewForms="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="URL"></Field>
       <Field ID="{9da97a8a-1da5-4a77-98d3-4bc10456e700}" Type="Note" Name="Comments" DisplayName="$Resources:core,Notes;" Sortable="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Comments"></Field>
-      <Field ID="{9da97a8a-1da5-4a77-98d3-4bc10456e709}" Type="Note" Name="RSA_Field1" DisplayName="Encrypted Field 1" Sortable="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="RSA_Field1" JSLink="~site/scripts/encryptedField.js"></Field>
+      <Field ID="{8e7906b1-5d29-41e0-871b-611f20844bd4}" Type="Note" Name="XsDescription" DisplayName="Description" Sortable="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="XsDescription"></Field>
+      <Field ID="{9da97a8a-1da5-4a77-98d3-4bc10456e709}" Type="Note" Name="RSA_Field1" DisplayName="Encrypted Note 1" Sortable="FALSE" UnlimitedLengthInDocumentLibrary="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="RSA_Field1" JSLink="~site/scripts/encryptedField.js"></Field>
 
-      <Field ID="{A0F0172F-021E-4C4D-BF13-A92DA0D58175}" Name="RSA_Field2" StaticName="RSA_Field2" Type="Text" DisplayName="Encrypted Field 2" UnlimitedLengthInDocumentLibrary="TRUE"></Field>
+      <Field ID="{a0f0172f-021e-4c4d-bf13-a92da0d58175}" Name="RSA_Field2" StaticName="RSA_Field2" Type="Note" DisplayName="Encrypted Note 2" UnlimitedLengthInDocumentLibrary="TRUE"></Field>
       <Field ID="{2a9ab6d3-268a-4c1c-9897-e5f018f87e64}" ReadOnly="TRUE" Filterable="FALSE" Type="Computed" Name="URLwMenu" DisplayName="$Resources:core,URL;" DisplayNameSrcField="URL" ClassInfo="Menu" AuthoringInfo="$Resources:core,URLwEditMenu;" ListItemMenuAllowed="Required" LinkToItemAllowed="Prohibited" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="URLwMenu">
         <FieldRefs>
           <FieldRef Name="URL" />

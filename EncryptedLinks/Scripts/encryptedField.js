@@ -424,8 +424,8 @@
         'RSA_Field2': {
             'View': function (ctx) { return xSolon.RSA.View(ctx); },
             'DisplayForm': function (ctx) { return xSolon.RSA.Display(ctx); },
-            'EditForm': function (ctx) { return xSolon.RSA.Edit(ctx, 'input'); },
-            'NewForm': function (ctx) { return xSolon.RSA.New(ctx, 'input'); }
+            'EditForm': function (ctx) { return xSolon.RSA.Edit(ctx); },//, 'input'); },
+            'NewForm': function (ctx) { return xSolon.RSA.New(ctx); }
         }
     };
 
