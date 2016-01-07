@@ -40,6 +40,7 @@
     </SharePoint:UIVersionedContent>
 </asp:Content>
 <asp:Content ContentPlaceHolderID="PlaceHolderAdditionalPageHead" runat="server">
+    
     <script type="text/javascript" src="../../_layouts/15/sp.runtime.js"></script>
     <script type="text/javascript" src="../../_layouts/15/sp.js"></script>
     <script type="text/javascript" src="../../_layouts/15/SP.UI.Dialog.js"></script>    
@@ -47,6 +48,9 @@
     <script type="text/javascript" src="../../scripts/jsencrypt.min.js"></script>
     <script type="text/javascript" src="../../scripts/typedarray.js"></script>
     <script type="text/javascript" src="../../scripts/sjcl.js"></script>
+    <script type="text/javascript" src="../../scripts/clipboard.js"></script>
+    <script type="text/javascript" src="../../Scripts/initClipboard.js"></script>
+
     <SharePoint:DelegateControl runat="server" ControlId="FormCustomRedirectControl" AllowMultipleControls="true" />
     <SharePoint:UIVersionedContent UIVersion="4" runat="server">
         <contenttemplate>

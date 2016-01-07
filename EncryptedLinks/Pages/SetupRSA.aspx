@@ -15,6 +15,7 @@
     <script type="text/javascript" src="../scripts/jsencrypt.min.js"></script>
     <script type="text/javascript" src="../scripts/typedarray.js"></script>
     <script type="text/javascript" src="../scripts/sjcl.js"></script>
+    <script type="text/javascript" src="../Scripts/clipboard.js"></script>
     <link rel="Stylesheet" type="text/css" href="../Content/css/spbootstrap.min.css" />
     <style type="text/css">
         .row {

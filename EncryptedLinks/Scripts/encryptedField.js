@@ -105,7 +105,10 @@
                 return html;
             },
             renderForm: function (formCtx, curValue, controlType) {
-                var tmp = "<div id='section{0}'><{2} id='txt{0}' type='text' name='txt{0}' class='ms-long' rows='6'></{2}></div><a href='#' onclick='xSolon.RSA.Encrypt(\"txt{0}\");'>Encrypt</a> | <a href='#' onclick='xSolon.RSA.Decrypt(\"txt{0}\");'>Decrypt</a> {3}";
+                var tmp = "<div id='section{0}'><{2} id='txt{0}' type='text' name='txt{0}' class='ms-long' rows='6'></{2}></div><a href='#' onclick='xSolon.RSA.Encrypt(\"txt{0}\");'>Encrypt</a> | <a href='#' onclick='xSolon.RSA.Decrypt(\"txt{0}\");'>Decrypt</a> | <a href='#' val='' field='txt{0}' clipboard>Copy to Clipboard</a> {3}";
+
+                if (controlType === 'div') // if rendering display mode, remove 'Encrypt' link
+                    tmp = "<div id='section{0}'><{2} id='txt{0}' type='text' name='txt{0}' class='ms-long' rows='6'></{2}></div><a href='#' onclick='xSolon.RSA.Decrypt(\"txt{0}\");'>Decrypt</a> | <a href='#' val='' field='txt{0}' clipboard>Copy to Clipboard</a> {3}";
 
                 var menu = ui.getMenuMarkup(formCtx.fieldName);
 
@@ -118,7 +121,7 @@
                     input.attr('value', curValue);
                 else if (controlType.search(/div/i) === 0)
                     input.html(curValue);
-                else input.val(curValue);
+                else input.text(curValue);
 
                 res = hRes.html();
 
@@ -332,7 +335,7 @@
                 return ctrl.text();
             return ctrl.val();
         };
-        var setCtrlVal = function (ctrl, val) {
+        var setCtrlVal = function (ctrl, val) {          
             if (ctrl[0].nodeName.search(/div/i) === 0)
                 ctrl.html(val);
             else ctrl.val(val);
@@ -363,7 +366,7 @@
             return false;
         }
 
-        me.Decrypt = function (id) {
+        me.Decrypt = function (id, copying) {
 
             var ctrl = $('#' + id);
 
@@ -371,7 +374,8 @@
                 if (crypt) {
                     try {
                         var raw = crypt.decrypt(getCtrlVal(ctrl));
-                        if (raw !== false)
+                        $("a[field='" + id + "']")[0].setAttribute("val", raw);
+                        if (raw !== false && !copying) //only show decrypted value if not copying to clipboard
                             setCtrlVal(ctrl, raw);
                         else { SP.UI.Notify.addNotification("Decryption failed", false); }
                         if (window.console && window.console.log)
@@ -410,6 +414,8 @@
 
     var rsaCtx = {};
 
+  
+
     rsaCtx.Templates = {};
     //associate the various templates with rendering functions for our field.
     //when a list view is returned to the user, SharePoint will fire the function associate with 'View'.
@@ -435,3 +441,4 @@
     ExecuteOrDelayUntilScriptLoaded(function () { }, "SP.js")
 
 })(window.xSolon = window.xSolon || {});
+

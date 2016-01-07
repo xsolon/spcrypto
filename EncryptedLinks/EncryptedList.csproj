@@ -117,11 +117,13 @@
     <Content Include="RSAKeys\RSAKeysInstance\Elements.xml" />
     <Content Include="RSAKeys\Schema.xml" />
     <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\clipboard.js" />
     <Content Include="Scripts\Elements.xml" />
     <Content Include="Scripts\encryptedField.js" />
     <Content Include="Scripts\encryptedField.min.js">
       <DependentUpon>encryptedField.js</DependentUpon>
     </Content>
+    <Content Include="Scripts\initClipboard.js" />
     <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
