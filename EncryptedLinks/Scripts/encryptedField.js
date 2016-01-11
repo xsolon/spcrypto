@@ -374,8 +374,9 @@
                 if (crypt) {
                     try {
                         var raw = crypt.decrypt(getCtrlVal(ctrl));
-                        $("a[field='" + id + "']")[0].setAttribute("val", raw);
-                        if (raw !== false && !copying) //only show decrypted value if not copying to clipboard
+                        if (copying) 
+                            $("a[field='" + id + "']")[0].setAttribute("val", raw);
+                        else if (raw !== false)
                             setCtrlVal(ctrl, raw);
                         else { SP.UI.Notify.addNotification("Decryption failed", false); }
                         if (window.console && window.console.log)

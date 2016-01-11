@@ -17,8 +17,7 @@
             console.info('Action:', e.action);
             console.info('Text:', e.text);
             console.info('Trigger:', e.trigger);
-
-            alert("Copied!");
+            SP.UI.Notify.addNotification("Copied to Clipboard!", false);
             //showTooltip(e.trigger, 'Copied!');
         });
 
@@ -26,7 +25,7 @@
             console.error('Action:', e.action);
             console.error('Trigger:', e.trigger);
 
-            alert("Failed");
+            SP.UI.Notify.addNotification("Failed to copy.", false);
             //showTooltip(e.trigger, fallbackMessage(e.action));
         });
     }
